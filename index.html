@@ -3,15 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>Youtube Player</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body> 
         <div class="grid-container">
             <nav class="grid-item nav-bar">
-
+                <img class="nested" id="hamburger-icon" src="Assets/hamburger-icon.png" alt="Hamburger Icon">
+                <img class="nested" id="youtube-logo" src="Assets/youtube-logo.png" alt="Youtube Icon">
+                <form class="nested search">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <img class="nested icon" id="camera" src="Assets/camera.png" alt="Upload Camera Icon">
+                <img class="nested icon" id="profile-grid" src="Assets/grid-icon.png" alt="9x9 Grid">
+                <img class="nested icon" id="bell" src="Assets/youtube-bell.png" alt="notification-bell">
+                <img class="nested icon" id="bell" src="Assets/user.png" alt="User Picture">
             </nav>
             <div class="grid-item video">
-
+                <iframe class="main-video" src="https://www.youtube.com/embed/lTRiuFIWV54?start=21" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="grid-item sidebar">
 
