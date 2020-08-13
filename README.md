@@ -7,4 +7,4 @@ For this project I utilized CSS Grid to build a replica of the youtube player ho
 
 Practiced with embedding youtube videos on a web page and formatting a page using HTML, CSS and CSS grid.
 
-The whole website can be viewed here -
+The whole website can be viewed here - [https://rueeazy.github.io/youtube-clone/]
